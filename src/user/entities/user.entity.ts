@@ -12,7 +12,7 @@ export class User {
   id: string;
 
   @Column()
-  name: string;
+  fullName: string;
 
   @CreateDateColumn()
   createdAt: Date;
